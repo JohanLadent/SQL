@@ -1,0 +1,1 @@
+ALTER TABLE dbo.clients ADD zipCode NVARCHAR(50), city NVARCHAR(50) ;
