@@ -1,3 +1,5 @@
+USE [webDevelopment]
+GO
 DELETE FROM dbo.languages
-WHERE language = 'HTML'
+WHERE language = '%HTML%'
 GO

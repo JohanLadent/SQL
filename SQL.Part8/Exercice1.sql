@@ -1,4 +1,7 @@
-USE [webDevelopment]
+USE [development]
 GO
-SELECT * FROM dbo.frameworks LEFT JOIN dbo.languages ON frameworks.framework = languages.version
-GO
+SELECT l.name AS langage, f.name AS framework
+ FROM [dbo].[frameworks] AS f
+RIGHT JOIN [dbo].[languages] AS l
+ON f.languagesId = l.id
+--Afficher tous les frameworks associés à leurs langages. Si un langage n'a pas de framework l'afficher aussi.

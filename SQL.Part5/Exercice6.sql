@@ -1,4 +1,4 @@
 USE [webDevelopment]
 GO
-SELECT * FROM dbo.languages WHERE language <> 'PHP'
+SELECT language, version FROM dbo.languages WHERE language <> 'PHP'
 GO 

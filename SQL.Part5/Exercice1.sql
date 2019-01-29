@@ -1,4 +1,4 @@
 USE [webDevelopment]
 GO
-SELECT * FROM dbo.languages 
+SELECT language,version FROM dbo.languages 
 GO

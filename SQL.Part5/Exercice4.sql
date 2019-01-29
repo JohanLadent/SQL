@@ -1,6 +1,4 @@
 USE [webDevelopment]
 GO
-SELECT * FROM dbo.languages WHERE id = '3'
-SELECT * FROM dbo.languages WHERE id = '5'
-SELECT * FROM dbo.languages WHERE id = '7'
+SELECT language, version FROM dbo.languages WHERE id IN (3,5,7)
 GO
